@@ -4,15 +4,15 @@ RuTransform is a Python framework for adversarial attacks and text data augmenta
 
 #### Table of contents
 
-- [Setup & Usage](https://github.com/RussianNLP/rutransform/main/README.md#setup--usage)
-- [Examples](https://github.com/RussianNLP/rutransform/main/README.md#examples)
+- [Setup & Usage](https://github.com/RussianNLP/rutransform/#setup--usage)
+- [Examples](https://github.com/RussianNLP/rutransform/#examples)
   - Dataset Transformation on sample data
   - Dataset Transformation on your own data
   - Custom Constraints
   - Sentence Transformations
   - Custom Transformations
-- [Framework Design](https://github.com/RussianNLP/rutransform/main/README.md#framework-design)
-- [Cite us](https://github.com/RussianNLP/rutransform/main/README.md#cite-us)
+- [Framework Design](https://github.com/RussianNLP/rutransform/#framework-design)
+- [Cite us](https://github.com/RussianNLP/rutransform/#cite-us)
 
 ## Setup & Usage
 
@@ -33,7 +33,7 @@ pip install .
 <details>
     <summary><b>Dataset Transformation (sample data)</b></summary>
 
-For the full list of supported transformations with examples see [supported transformations](https://github.com/RussianNLP/rutransform/main/README.md#supported-transformations).
+For the full list of supported transformations with examples see [supported transformations](https://github.com/RussianNLP/rutransform/#supported-transformations).
 
 ```
 import pandas as pd

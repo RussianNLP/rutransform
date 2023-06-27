@@ -175,8 +175,8 @@ class SentenceAdditions(SentenceOperation):
             path to model in the HuggingFace library
         """
         model_dict = {
-            "gpt2": "sberbank-ai/rugpt2_large",
-            "gpt3": "sberbank-ai/rugpt3large_based_on_gpt2",
+            "gpt2": "ai-forever/rugpt2_large",
+            "gpt3": "ai-forever/rugpt3large_based_on_gpt2",
             "mt5-base": "google/mt5-base",
             "mt5-small": "google/mt5-small",
             "mt5-large": "google/mt5-large",
@@ -253,7 +253,6 @@ class SentenceAdditions(SentenceOperation):
                 outputs = self.generator(
                     sentence,
                     max_length=self.args.max_length,
-                    skip_special_tokens=True,
                     num_return_sequences=1,
                     num_beams=self.args.num_beams,
                     early_stopping=self.args.early_stopping,

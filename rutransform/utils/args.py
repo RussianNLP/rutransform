@@ -53,8 +53,8 @@ class TransformArguments:
     generator: str = field(
         default="gpt3",
         metadata={
-            "help": "generator model: 'gpt2' = sberbank-ai/rugpt2large, "
-            "'gpt3' = sberbank-ai/rugpt3small_based_on_gpt2, "
+            "help": "generator model: 'gpt2' = ai-forever/rugpt2large, "
+            "'gpt3' = ai-forever/rugpt3small_based_on_gpt2, "
             "'mt5-small' = google/mt5-small, 'mt5-base' =  google/mt5-base, "
             "'mt5-large' = google/mt5-large"
         },
